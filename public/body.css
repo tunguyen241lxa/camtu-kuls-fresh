@@ -1,0 +1,160 @@
+.search-form input
+{
+    width: 150px;
+    outline: none;
+    border-radius: 30px;
+    text-indent: 20px;
+    background-color: rgb(46, 71, 101, 0.2);
+    border: none;
+    font-size: 12pt;
+    color: #2E4765;
+    padding-right: 50px;
+    height: 25px;
+}
+.search-form .fa-search
+{
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+.search-form
+{
+    position: relative !important;
+}
+.food-name
+{
+    display: flex;
+    justify-content: space-between;
+}
+.food-name a
+{
+    color: #B30733;
+    text-decoration: none;
+}
+.food-name .fa-heart
+{
+    color: #B30733;
+}
+.price
+{
+    display: flex;
+  
+}
+.price ul
+{
+    padding: 0;
+}
+.fa-star
+{
+    color: #EF4C00;
+}
+.fa-star-o
+{
+    color: #EF4C00;
+    opacity: 90%;
+}
+.price span
+{
+    color: #2E4765;
+    padding: 0 15px;
+}
+.country ul 
+{
+    padding: 0;
+}
+.country ul li
+{
+    padding: 0 10px;
+}
+.fa-search
+{
+    color: #9F072F;
+}
+.items-orange
+{
+    background-color: #EF4C00;
+
+}
+.items-orange .orange-meal
+{
+    color: white;
+}
+.menu-ourmeal .items-orange img
+{
+    color: white;
+}
+
+.food
+{
+   position: relative;
+   background-position: cover;
+}
+.food img
+{
+    width: 275px;
+    height: 154px;
+    display: block;
+    border-radius: 25px 25px 0 0;
+   
+}
+.col-main
+{
+    padding: 0 10px 10px 0;
+    
+}
+.price ul
+{
+    display: flex;
+    list-style: none;
+}
+.price
+{
+    display: flex;
+}
+
+.country ul
+{
+    display: flex;
+    list-style: none;
+    /* justify-content: space-between; */
+}
+.title-feature
+{
+    color: #B30733;
+    font-size: 23px;
+}
+.country
+{
+    display: flex;
+    justify-content: space-between;
+}
+.food-items-icon
+{
+
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    background-color: #FF0043;
+    color: white;
+    border-radius: 50%;
+    left: 19px;
+    bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .fa-mortar-pestle
+{
+    position: absolute;
+    top: 110px;
+    left: 20px;
+} */
+.fa-clock-o
+{
+    color: #2E4765;
+}
+.country ul li {
+    color: #2E4765;
+    background-color: #2E47650D;
+    border-radius: 25px;
+}

@@ -1,0 +1,49 @@
+.date-time 
+{
+    width: 180px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    color: #EF4C00;
+    margin-inline-end: 20px;
+}
+    
+.date-time li 
+{
+    display: inline;
+    font-size: 2.7em;
+    text-align: center;
+    font-family: "Arial", Helvetica, sans-serif;
+    
+}
+
+#point 
+{
+    position: relative;
+    -moz-animation: mymove 1s ease infinite;
+    -webkit-animation: mymove 1s ease infinite;
+    padding-left: 10px;
+    padding-right: 10px
+}
+    
+/* Animasi Detik Kedap - Kedip */
+@-webkit-keyframes mymove 
+{
+    0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+    50% {opacity:0; text-shadow:none; }
+    100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; } 
+}
+    
+@-moz-keyframes mymove 
+{
+    0% {opacity:1.0; text-shadow:0 0 20px #00c6ff;}
+    50% {opacity:0; text-shadow:none; }
+    100% {opacity:1.0; text-shadow:0 0 20px #00c6ff; } 
+}
+.date-time #text
+{
+    font-size: 25px;
+    vertical-align: top;
+    padding-bottom: 10px;
+}

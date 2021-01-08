@@ -1,0 +1,70 @@
+.selector {
+    list-style: none;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 1px;
+  }
+  
+  .column {
+    height: 30px;
+    padding: 5px 5px 5px 0;
+    width: 95px;
+  }
+  .column a
+  {
+      text-decoration: none;
+      color: #2E4765;
+      margin-inline-start: 10px;
+  }
+  .bottom-cus
+  {
+        background-image: url('./img/Food.png');
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        /* padding: 20% 0 0; */
+        border-radius: 25px;
+        display: block;
+        /* max-width: 500px; */
+        height: 100px;
+        width: 250px;
+        max-width: 100%;
+        /* padding: 60px 0 0; */
+  }
+  .right h3
+  {
+      color: #2E4765;
+  }
+  .columns {
+    height: 30px;
+    padding: 5px 5px 5px 0;
+    width: 95px;
+  }
+  .columns a
+  {
+      text-decoration: none;
+      color: #2E4765;
+      margin-inline-start: 10px;
+  }
+  .column-orange
+{
+   
+  height: 35px;
+  background: red;
+  color: #fff;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+}
+.selector .column-orange a
+{
+    color: white;
+}
+/* .adverti h3 {
+  text-align: center;
+} */

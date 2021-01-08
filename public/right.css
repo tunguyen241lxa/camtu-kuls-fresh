@@ -1,0 +1,40 @@
+.select-cus {
+    width: 112px;
+    height: 34px;
+    color: white;
+    background: #9F072F 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    position: absolute;
+    top: 40px;
+    left: 51px;
+    font-size: 11pt;
+    outline: none;
+    border: none;
+}
+.btn-btnslider
+{
+    background-color: #EF4C00;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+}
+.img-shipper
+{
+    background-image: url(../img/Layer2.png);
+    padding: 185px 0 0;
+    background-size: cover;
+}
+.adverti
+{
+    max-width: 100%;
+}
+.item-right
+{
+    border: solid 1px;
+    border-color: #cccccc;
+    border-radius: 25px;
+    padding: 25px 0 0 10px;
+    margin-top: 5px;
+}

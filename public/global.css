@@ -1,0 +1,211 @@
+
+
+/* home */
+.status-eat
+{
+    display: flex;
+    /* display: inline; */
+    padding: .5em 1.5em;
+    text-align: center;
+    color: #2E4765;
+    list-style: none;
+    justify-content: center;
+    /* text-decoration: none; */
+    margin: 0;
+}
+.status-eat
+{
+    font-size: 30px;
+}
+.home-bg-img 
+{
+    background-image: url(../img/10882.png);
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    /* padding: 20% 0 0; */
+    border-radius: 25px;
+    display: block;
+    /* max-width: 500px; */
+    height: 250px;
+    width: 850px;
+    max-width: 100%;
+    padding: 60px 0 0;
+}
+.header-title h1
+{
+    color:white;
+    font-size: 27px;
+}
+.row .header-btn
+{
+    margin-left: 25px;
+}
+.row .header-btn button
+{
+    border: none;
+    color: white;
+    margin-left: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    /* height: auto; */
+}
+.header-btn button .fab
+{
+    font-size: 25px;
+    margin-block-start: 10px;
+}
+.row .header-btn button span h3
+{
+    margin: 0;
+    width: 118px;
+}
+.btn-as
+{
+    background-color: #CC0066;
+  
+}
+.btn-gg
+{
+    background-color: #FF0000;
+    
+}
+.right
+{
+    width: 230px;
+    max-width: 100%;
+    margin-top: 310px;
+    padding: 20px;
+   
+}
+.bg-body
+{
+    display: flex;
+    justify-content:center;
+    /* position: relative; */
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+.sub-title h3
+{
+    color: #EF4C00;
+    display: flex;
+    justify-content: flex-end; 
+    margin: 0;
+}
+
+
+/* main */
+.menu-ourmeal li a img
+{
+    width: 20px;
+    height: 18px;
+    
+}
+.menu-ourmeal li a
+{
+    text-decoration: none;
+}
+.menu-ourmeal li
+{
+    list-style: none;
+    padding: 0 15px;
+}
+.search
+{
+    display: flex;
+    /* justify-content: flex-end;  */
+}
+.feature
+{
+    margin-block-start: 30px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.menu-ourmeal
+{
+    display: flex;
+    padding-left: 0;
+}
+.menu-ourmeal li
+{
+    /* border: solid 1px;
+    border: none; */
+    margin: 0 auto;
+    border-radius: 25px;
+    text-align: center;
+}
+.menu-ourmeal li a
+{
+    color: #2E4765;
+}
+.menu-ourmeal .active-ourmeal
+{
+    background-color:  #EF4C00;
+    /* color: white; */
+    border-radius: 25px;
+    width: 100px;
+
+}
+.menu-ourmeal .active-ourmeal a
+{
+    color: white;
+}
+
+.header-title
+{
+   
+    margin-left: 40px;
+}
+.main
+{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn-as {
+    list-style: none;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 15px;
+  }
+  
+.btn-as i, .btn-as span {
+    height: 30px;
+    margin-top: 5px;
+  }
+
+  .header-btn
+  {
+      display: flex;
+  }
+  .btn-gg {
+    list-style: none;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 15px;
+  }
+  
+.btn-gg i, .btn-gg span {
+    height: 30px;
+    margin-top: 5px;
+  }
+  .country2
+  {
+      display:none;
+  }
